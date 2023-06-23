@@ -48,7 +48,7 @@ export default function Home() {
                 <tbody>
                   {
                     pets.map((pet:any, index) => (
-                      <tr>
+                      <tr key={index}>
                         <td>
                           {pet.name}
                         </td>
