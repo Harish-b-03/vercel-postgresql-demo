@@ -25,3 +25,23 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+table {
+  padding: 10px;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+thead td {
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+td {
+  padding: 10px 20px;
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+}
